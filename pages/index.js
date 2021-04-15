@@ -1,8 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Layout from "../layouts/main";
 import Link from "next/link"
 
 export default function Top() {
+
+  // Similar to componentDidMount and componentDidUpdate
+  useEffect(() => {
+    console.log('hoge');
+  });
+
   return (
       <React.Fragment>
         <Layout header="Next.js" title="Top page.">
