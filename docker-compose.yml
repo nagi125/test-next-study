@@ -1,6 +1,6 @@
 version: '3'
 services:
-  test-react-app:
+  test-next-app:
     container_name: test-next-app
     build:
       context: ./.docker/web
