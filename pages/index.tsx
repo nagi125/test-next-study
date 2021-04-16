@@ -1,7 +1,8 @@
 import Link from 'next/link'
-import Layout from '../components/Layout'
+import Layout from '../layouts/Layout'
 import fetch from 'isomorphic-unfetch'
-import React, {useEffect, useState} from "react";
+// import React, {useEffect, useState} from "react";
+import React from "react";
 
 type Props = {
   name: string
@@ -19,6 +20,7 @@ const IndexPage = ({ name }: Props) => {
   //   })();
   // }, [])
 
+  // @ts-ignore
   return (
       <React.Fragment>
         <Layout title="Home | Next.js + TypeScript Example">
