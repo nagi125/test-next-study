@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Layout from '../layouts/Layout'
 import fetch from 'isomorphic-unfetch'
-// import React, {useEffect, useState} from "react";
 import React from "react";
 
 type Props = {
@@ -12,12 +11,12 @@ const IndexPage = ({ name }: Props) => {
   // const [stars, setStars] = useState(0)
   //
   // useEffect(() => {
-  //   (async () => {
-  //     const res  = await fetch('https://api.github.com/repos/zeit/next.js')
-  //     const json = await res.json()
-  //     console.log(json.stargazers_count)
-  //     setStars(json.stargazers_count)
-  //   })();
+    // (async () => {
+    //   const res  = await fetch('https://api.github.com/repos/zeit/next.js')
+    //   const json = await res.json()
+    //   console.log(json.stargazers_count)
+    //   setStars(json.stargazers_count)
+    // })();
   // }, [])
 
   // @ts-ignore
